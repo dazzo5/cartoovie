@@ -10,3 +10,8 @@ cartoovie aims to fix that problem. From answering a short 10-question survey, c
 Whether you want to watch a newer movie or an older movie, an old western or a futuristic film, cartoovie can help!
 Users will be able to favorite movies and find out where to stream them on whichever platform the film is available on. Additionally, users can mark whether they have watched the film or not, and 
 users can refresh for more options.
+
+Project time-line:
+
+11/7/23 - Defined project's goals, scope and requirements
+11/8/23 - Design Layout and start creating the basic HTML structure/skeleton

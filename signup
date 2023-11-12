@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="icon" href="cartoovielogotspt.png" type="image/x-icon">
+        <title>Sign Up(It's Free!)</title>
+    </head>
+    <body>
+        <header class="header">
+            <div class="menu">
+                <a href="#">Menu</a>
+            </div>
+            <img src="" alt="Insert Logo" class="logo">
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Login</a></li>
+                <li><a href="#">Signup</a></li>
+            </ul>
+        </header>
+        
+        <h1>Sign up to cartoovie!</h1>
+        <form action="userhome.html" method="get">
+            <label for="fn">First Name:</label>
+            <input id="fn"type="text" name="" placeholder="First Name" required>
+            
+            <label for="ln">Last Name:</label>
+            <input id="ln"type="text" name="" placeholder="Last Name" required>
+
+            <p></p>
+
+            <label for="mail">Email:</label>
+            <input id="mail"type="email" name="" placeholder="Email" required>
+
+            <label for="pass">Password:</label>
+            <input id="pass"type="password" name="" placeholder="Password" required>
+
+        
+        <!-- Asking so that R rated movies will not be recommended to underaged users -->
+            <p>Are you 17 or older?</p>
+            <p>(PLEASE NOTE: Clicking yes will include R rated movies to recommendations)</p>
+        <label for="y">Yes</label>
+        <input id="y" type="radio" name="over" value="yes">
+        
+        <label for="n">No</label>
+        <input id="n" type="radio" name="over" value="no">
+
+        <p></p>
+
+        <input type="submit" name="" value="Sign Up!">
+        <h4>Already have an account? Sign in</h4>
+        </form>
+        <footer class="footer">
+            <ul class="footer-links">
+                <li><a href="#">Terms and Conditions</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+            </ul>
+    
+            <ul class="social-icons">
+                <li><a href="https://www.linkedin.com/in/dominick-randazzo/">LinkedIn<i class="fab fa-facebook"></i></a></li>
+                <li><a href="https://twitter.com/cartoovie">Twitter<i class="fab fa-twitter"></i></a></li>
+                <li><a href="https://www.instagram.com/cartoovie/">Instagram<i class="fab fa-instagram"></i></a></li>
+            </ul>
+        </footer>
+    </body>
+</html>

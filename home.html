@@ -3,6 +3,7 @@
     <head>
         <meta charset="utf-8">
         <link rel="icon" href="cartoovielogotspt.png" type="image/x-icon">
+        <link rel="stylesheet" type="text/css" href="home.css">
         <title>cartoovie Homepage</title>
     </head>
     <body>
@@ -28,22 +29,93 @@
         </div>
         <div>
             <form method="get">
+                <!--Question 1-->
                 <h3>What mood are you currently in?</h3>
                     <label for="Romantic">Calm:</label>
-                    <input id="moodromance" type="radio" name="mood" value="">
+                    <input id="moodromance" type="radio" name="q1" value="">
                     <label for="Humorous">Humorous:</label>
-                    <input id="moodhumor" type="radio" name="mood" value="">
+                    <input id="moodhumor" type="radio" name="q1" value="">
                     <label for="Humorous">Sad:</label>
-                    <input id="moodsad" type="radio" name="mood" value="">
+                    <input id="moodsad" type="radio" name="q1" value="">
                     <label for="Cheerful">Cheerful:</label>
-                    <input id="moodcheer" type="radio" name="mood" value="">
-                
+                    <input id="moodcheer" type="radio" name="q1" value="">
+                <!--Question 2-->
                 <h3>Would you rather watch a recent release or a classic film?</h3>
                     <label for="recentfilm">Recent Release</label>
-                    <input id="reacentfilm" type="radio" name="type" value="">
+                    <input id="reacentfilm" type="radio" name="q2" value="">
                     <label for="classicfilm">Classic Film</label>
-                    <input id="classicfilm" type="radio" name="type" value="">
+                    <input id="classicfilm" type="radio" name="q2" value="">
+                <!--Question 3-->
+                <h3>Which movie genres do you enjoy the most?</h3>
+                    <label for="actionfilm">Action</label>
+                    <input id="actionfilm" type="checkbox" name="q3" value="">
+                    <label for="comedyfilm">Comedy</label>
+                    <input id="comedyfilm" type="checkbox" name="q3" value="">
+                    <label for="dramafilm">Drama</label>
+                    <input id="dramafilm" type="checkbox" name="q3" value="">
+                    <label for="romancefilm">Romance</label>
+                    <input id="romancefilm" type="checkbox" name="q3" value="">
+                    <label for="horrorfilm">Horror</label>
+                    <input id="horrorfilm" type="checkbox" name="q3" value="">
+                <!--Question 4-->
+                <h3>What streaming service would you prefer to watch on?</h3>
+                    <label for="netflixfilm">Netflix</label>
+                    <input id="netflixfilm" type="radio" name="q4" value="">
+                    <label for="parafilm">Paramount+</label>
+                    <input id="parafilm" type="radio" name="q4" value="">
+                    <label for="maxfilm">Max</label>
+                    <input id="maxfilm" type="radio" name="q4" value="">
+                    <label for="hulufilm">Hulu</label>
+                    <input id="hulufilm" type="radio" name="q4" value="">
+                    <label for="disfilm">Disney+</label>
+                    <input id="disfilm" type="radio" name="q4" value="">
+                    <label for="primefilm">Amazon Prime</label>
+                    <input id="primefilm" type="radio" name="q4" value="">
+                    <label for="disfilm">Any</label>
+                    <input id="disfilm" type="radio" name="q4" value="">
+                <!--Question 5-->
+                <h3>How important is the soundtrack or music in a movie to you?</h3>
+                    <label for="soundveryfilm">Very Important</label>
+                    <input id="soundveryfilm" type="radio" name="q5" value="">
+                    <label for="soundnotfilm">Not That Important</label>
+                    <input id="soundnotfilm" type="radio" name="q5" value="">
+                <!--Question 6-->
+                <h3>Do you prefer movies in a specific language, or are you open to subtitles</h3>
+                    <label for="nosubfilm">No Subtitles!</label>
+                    <input id="nosubfilm" type="radio" name="q6" value="">
+                    <label for="idmfilm">I Don't Mind</label>
+                    <input id="idmfilm" type="radio" name="q6" value="">
+                <!--Question 7-->
+                <h3>What time periods do you like?</h3>
+                    <label for="historicfilm">Historical Period</label>
+                    <input id="historicfilm" type="checkbox" name="q7" value="">
+                    <label for="presentfilm">Present Day</label>
+                    <input id="presentfilm" type="checkbox" name="q7" value="">
+                    <label for="comedyfilm">Futuristic Period</label>
+                    <input id="comedyfilm" type="checkbox" name="q7" value="">
+                    <label for="parallelfilm">Parallel Universe</label>
+                    <input id="parallelfilm" type="checkbox" name="q7" value="">
+                <!--Question 8-->
+                <h3>Who will you be watching the movie with?</h3>
+                    <label for="myselffilm">Myself</label>
+                    <input id="myselffilm" type="radio" name="q8" value="">
+                    <label for="familyfilm">My Family</label>
+                    <input id="familyfilm" type="radio" name="q8" value="">
+                    <label for="friendfilm">My Friend/Friends</label>
+                    <input id="friendfilm" type="radio" name="q8" value="">
+                    <label for="partnerfilm">My Partner</label>
+                    <input id="partnerfilm" type="radio" name="q8" value="">
             </form>
+            
+            <!-- Submit + Animation-->
+                <div>
+                <input type="submit" value="Submit">
+                </div>
+            <!-- Display 3 movies recommended with an option to refresh for another 3-->
+        
+            <div id="recommendations">
+                <!-- Movie recommendations will be displayed here -->
+            </div>
         </div>
         <!-- <a href="login.html">Sign in</a>
         <div>

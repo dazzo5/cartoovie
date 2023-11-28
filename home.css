@@ -1,0 +1,192 @@
+/*
+selected tag{
+    property: value;
+}
+*/
+@import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');
+
+
+/*Navbar*/
+    .my-custom-navbar {
+        background-color: #5CE1E6 !important; /* Navbar background color */
+        margin: 0;
+        padding: 0;
+        font-family: "Chewy", cursive;
+    }
+
+  
+  .my-custom-navbar .navbar-brand {
+    color: #333 !important; /* Brand text color */
+    font-weight: bold !important; /* Make the brand text bold */
+  }
+  
+  .my-custom-navbar .navbar-nav > li > a {
+    color: #333 !important; /* Navbar links text color */
+  }
+  
+  .my-custom-navbar .navbar-nav > li > a:hover,
+  .my-custom-navbar .navbar-nav > li > a:focus {
+    color: #555 !important; /* Navbar links text color on hover or focus */
+  }
+  
+  .my-custom-navbar .navbar-nav.navbar-right > li > a {
+    color: #333 !important; /* Right-aligned links text color */
+  }
+  
+  .my-custom-navbar .navbar-nav.navbar-right > li > a:hover,
+  .my-custom-navbar .navbar-nav.navbar-right > li > a:focus {
+    color: #555 !important; /* Right-aligned links text color on hover or focus */
+  }
+  
+  
+
+/* Welcome */
+.faceDiv {
+    text-align: center;
+    margin: auto;
+    background: #333;
+    margin-top: 0px; /* Adjust the top margin as needed */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Chewy", cursive;
+    letter-spacing: 4px;
+}
+
+
+.faceDiv h1 {
+    font-size: 7em; /* Adjust the font size as needed */
+    color: #5CE1E6;
+    margin-bottom: 20px; /* Add spacing between elements */
+}
+
+.faceDiv h2 {
+    font-size: 2.5em; /* Adjust the font size as needed */
+    margin-bottom: 10px; /* Add spacing between elements */
+    color:azure;
+}
+
+.faceDiv img {
+    width: 300px;
+    height: auto;
+}
+
+.faceDiv p {
+    font-size: 2.2em;
+    margin-bottom: 15px; /* Add spacing between elements */
+    color: azure;
+}
+
+.faceDiv button {
+    padding: 10px 10px; /* Adjust button padding as needed */
+    font-size: 1em; /* Adjust button font size as needed */
+    background-color: #5CE1E6; /* Customize button background color */
+    color: #000; /* Customize button text color */
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.faceDiv button:hover {
+    background-color: #555; /* Change button color on hover */
+}
+
+/*Questions*/
+
+.questionDiv {
+    text-align: center;
+    margin-top: 20px; /* Adjust the top margin as needed */
+    font-family: "Chewy", cursive;
+}
+
+.question {
+    margin-bottom: 20px; /* Add space between questions */
+    
+}
+
+.question h3 {
+    font-size: 1.2em; /* Adjust question title font size */
+    margin-bottom: 10px; /* Add space between question title and options */
+}
+
+.options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.options label {
+    margin-right: 30px; /* Add space between options */
+}
+
+.progress {
+    /* Style your progress bar here */
+    /* For example: */
+    margin-top: 20px;
+}
+
+.form-check {
+    /* Style your radio buttons here */
+    /* For example: */
+    margin-bottom: 10px;
+}
+
+/*Submit answers + animation*/
+.submitDiv button{
+    padding: 10px 10px; /* Adjust button padding as needed */
+    font-size: 1em; /* Adjust button font size as needed */
+    background-color: #5CE1E6; /* Customize button background color */
+    color: #000; /* Customize button text color */
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+/*footer*/
+
+.footer {
+    background-color: #333; /* Set footer background color */
+    padding: 20px;
+    text-align: center;
+    font-family: "Chewy", cursive;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-links,
+.social-icons {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links li,
+.social-icons li {
+    display: inline;
+    margin-right: 20px; /* Adjust spacing between list items */
+}
+
+.footer-links a,
+.social-icons a {
+    text-decoration: none;
+    color: #5CE1E6; /* Set link color */
+}
+
+.social-icons a {
+    display: flex;
+    align-items: center;
+}
+
+/* Optionally style the social media icons if using font awesome or similar */
+.social-icons .fab {
+    margin-right: 5px;
+}
+
+

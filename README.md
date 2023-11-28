@@ -18,3 +18,4 @@ Project timeline:
 11/12/23 - Created basic skeleton. Lastly designing the homepage and user's home so that CSS can be implemented
 11/15/23 - Set up HTML for userhome. Continuing homepage design.
 11/20/23 - Final Decisions on what questions to ask were made. Continuing homepage/CSS Design.
+11/27/23 - Designed CSS structure, colors, and font of homepage. + login structure.

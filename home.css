@@ -5,47 +5,50 @@ selected tag{
 */
 @import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');
 
-
-/*Navbar*/
-    .my-custom-navbar {
-        background-color: #5CE1E6 !important; /* Navbar background color */
-        margin: 0;
-        padding: 0;
-        font-family: "Chewy", cursive;
+@media (max-width: 767px) {
+    .navbar-nav > li > a,
+    .navbar-brand {
+      padding: 10px 15px; 
     }
+  }
 
-  
-  .my-custom-navbar .navbar-brand {
-    color: #333 !important; /* Brand text color */
-    font-weight: bold !important; /* Make the brand text bold */
-  }
-  
-  .my-custom-navbar .navbar-nav > li > a {
-    color: #333 !important; /* Navbar links text color */
-  }
-  
-  .my-custom-navbar .navbar-nav > li > a:hover,
-  .my-custom-navbar .navbar-nav > li > a:focus {
-    color: #555 !important; /* Navbar links text color on hover or focus */
-  }
-  
-  .my-custom-navbar .navbar-nav.navbar-right > li > a {
-    color: #333 !important; /* Right-aligned links text color */
-  }
-  
-  .my-custom-navbar .navbar-nav.navbar-right > li > a:hover,
-  .my-custom-navbar .navbar-nav.navbar-right > li > a:focus {
-    color: #555 !important; /* Right-aligned links text color on hover or focus */
-  }
-  
-  
+.navbar,
+.navbar-default {
+  margin-bottom: 0px;
+  border: none;
+  padding-bottom: 0px;
+}
+
+.my-custom-navbar {
+  background-color: #5CE1E6 !important;
+  font-family: "Chewy", cursive;
+  margin-bottom: 0;
+}
+
+.my-custom-navbar .navbar-brand,
+.my-custom-navbar .navbar-nav > li > a,
+.my-custom-navbar .navbar-nav.navbar-right > li > a {
+  color: #000000 !important;
+}
+
+.my-custom-navbar .navbar-brand {
+  font-weight: bold;
+}
+
+.my-custom-navbar .navbar-nav > li > a:hover,
+.my-custom-navbar .navbar-nav > li > a:focus,
+.my-custom-navbar .navbar-nav.navbar-right > li > a:hover,
+.my-custom-navbar .navbar-nav.navbar-right > li > a:focus {
+  color: #000000 !important; 
+}
 
 /* Welcome */
-.faceDiv {
+.welcomeDiv {
     text-align: center;
-    margin: auto;
+    margin: 0;
+    padding: 0;
     background: #333;
-    margin-top: 0px; /* Adjust the top margin as needed */
+    margin-top: 0; 
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -53,62 +56,64 @@ selected tag{
     align-items: center;
     font-family: "Chewy", cursive;
     letter-spacing: 4px;
-}
+  }
 
 
-.faceDiv h1 {
-    font-size: 7em; /* Adjust the font size as needed */
+.welcomeDiv h1 {
+    font-size: 7em; 
     color: #5CE1E6;
-    margin-bottom: 20px; /* Add spacing between elements */
+    margin-bottom: 0px; 
+    margin-top: 0px;
 }
 
-.faceDiv h2 {
-    font-size: 2.5em; /* Adjust the font size as needed */
-    margin-bottom: 10px; /* Add spacing between elements */
+.welcomeDiv h2 {
+    font-size: 2.5em; 
+    margin-bottom: 10px; 
     color:azure;
 }
 
-.faceDiv img {
+.welcomeDiv img {
     width: 300px;
     height: auto;
 }
 
-.faceDiv p {
+.welcomeDiv p {
     font-size: 2.2em;
-    margin-bottom: 15px; /* Add spacing between elements */
+    margin-bottom: 15px; 
     color: azure;
 }
 
-.faceDiv button {
-    padding: 10px 10px; /* Adjust button padding as needed */
-    font-size: 1em; /* Adjust button font size as needed */
-    background-color: #5CE1E6; /* Customize button background color */
-    color: #000; /* Customize button text color */
+.welcomeDiv button {
+    padding: 10px 10px; 
+    font-size: 1em; 
+    background-color: #5CE1E6; 
+    color: #000; 
     border: none;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
 
-.faceDiv button:hover {
-    background-color: #555; /* Change button color on hover */
+.welcomeDiv button:hover {
+    background-color: #555;
 }
+
 
 /*Questions*/
 
 .questionDiv {
     text-align: center;
-    margin-top: 20px; /* Adjust the top margin as needed */
+    margin-top: 20px;
     font-family: "Chewy", cursive;
 }
 
 .question {
-    margin-bottom: 20px; /* Add space between questions */
+    margin-bottom: 20px;
     
 }
 
 .question h3 {
-    font-size: 1.2em; /* Adjust question title font size */
-    margin-bottom: 10px; /* Add space between question title and options */
+    font-size: 1.2em; 
+    margin-bottom: 10px;
 }
 
 .options {
@@ -118,27 +123,25 @@ selected tag{
 }
 
 .options label {
-    margin-right: 30px; /* Add space between options */
+    margin-right: 30px; 
 }
 
 .progress {
-    /* Style your progress bar here */
-    /* For example: */
+    
     margin-top: 20px;
 }
 
 .form-check {
-    /* Style your radio buttons here */
-    /* For example: */
+    
     margin-bottom: 10px;
 }
 
-/*Submit answers + animation*/
+/*Submit answers + soon to be added animation*/
 .submitDiv button{
-    padding: 10px 10px; /* Adjust button padding as needed */
-    font-size: 1em; /* Adjust button font size as needed */
-    background-color: #5CE1E6; /* Customize button background color */
-    color: #000; /* Customize button text color */
+    padding: 10px 10px; 
+    font-size: 1em; 
+    background-color: #5CE1E6; 
+    color: #000; 
     border: none;
     cursor: pointer;
     transition: background-color 0.3s ease;
@@ -148,7 +151,7 @@ selected tag{
 /*footer*/
 
 .footer {
-    background-color: #333; /* Set footer background color */
+    background-color: #333; 
     padding: 20px;
     text-align: center;
     font-family: "Chewy", cursive;
@@ -170,13 +173,13 @@ selected tag{
 .footer-links li,
 .social-icons li {
     display: inline;
-    margin-right: 20px; /* Adjust spacing between list items */
+    margin-right: 20px; 
 }
 
 .footer-links a,
 .social-icons a {
     text-decoration: none;
-    color: #5CE1E6; /* Set link color */
+    color: #5CE1E6; 
 }
 
 .social-icons a {
@@ -184,7 +187,7 @@ selected tag{
     align-items: center;
 }
 
-/* Optionally style the social media icons if using font awesome or similar */
+
 .social-icons .fab {
     margin-right: 5px;
 }

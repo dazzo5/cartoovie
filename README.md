@@ -1,1 +1,1 @@
-- TBD.
+- Practicing my HTML, CSS, JavaScript
